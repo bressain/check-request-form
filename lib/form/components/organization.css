@@ -1,0 +1,19 @@
+.label {
+  composes: label from "../index.css";
+  display: inline-block;
+}
+.input {
+  composes: input from "../index.css";
+  height: 30px;
+  line-height: 30px;
+  width: 200px;
+}
+.other {
+  composes: input from "../index.css";
+  margin-left: 5px;
+  display: inline-block;
+  width: 160px;
+}
+.hidden {
+  display: none;
+}

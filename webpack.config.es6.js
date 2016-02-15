@@ -27,7 +27,8 @@ export default {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },  // run through babel with stage 0 (experimental es7) features
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader') },
+      { test: /react-datepicker\.css$/, loader: 'style-loader!css-loader' },
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader'), exclude: /react-datepicker\.css$/ },
       { test: /\.(jpg|png|gif)$/, loader: 'file-loader?limit=10000&name=/[name].[ext]' }
     ]
   },
