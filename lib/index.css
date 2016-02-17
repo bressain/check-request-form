@@ -2,11 +2,17 @@
   padding-left: 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-.title {
-  margin-bottom: 0;
+.form {
+  display: inline-block;
+  width: 450px;
+  vertical-align: top;
 }
-.subtitle {
-  margin-top: 0;
-  font-style: italic;
-  font-weight: 300;
+.spacer {
+  display: inline-block;
+  border-left: 1px solid lightgray;
+  height: calc(100vh - 50px);
+  margin-top: 25px;
+}
+.preview {
+  display: inline-block;
 }
