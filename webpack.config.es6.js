@@ -17,7 +17,9 @@ export default {
       'react',
       'react-dom',
       'react-styleable',
-      'autobind-decorator'
+      'autobind-decorator',
+      'moment',
+      'react-datepicker'
     ],
     app: './lib/index.js'
   },
