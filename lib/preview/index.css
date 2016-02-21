@@ -1,3 +1,7 @@
+.container {
+  /*for print preview*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 .titleContainer {
   margin-bottom: 41px;
 }
@@ -15,7 +19,7 @@
   display: flex;
 }
 .headerLeft {
-  flex-basis: 550px;
+  flex-basis: 500px;
   margin-right: 20px;
 }
 .headerRight {

@@ -16,7 +16,8 @@ export default {
       'babel-polyfill',  // initialize babel/es6 environment first
       'react',
       'react-dom',
-      'react-styleable'
+      'react-styleable',
+      'autobind-decorator'
     ],
     app: './lib/index.js'
   },
