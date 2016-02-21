@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.label {
+  margin-right: 5px;
+}
+.numericLabel {
+  composes: label;
+  flex-basis: 75px;
+}
+.underline {
+  flex-grow: 2;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.numericUnderline {
+  composes: underline;
+  text-align: right;
+  padding-right: 55px;
+}

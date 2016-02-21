@@ -1,0 +1,17 @@
+.container {
+  /*margin-top: 40px;*/
+}
+.underline {
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 40px;
+}
+.value {
+  margin: auto auto 0;
+  font-size: 1.2em;
+}
+.label {
+  text-align: center;
+  font-style: italic;
+  font-size: .9em;
+}

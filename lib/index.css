@@ -15,4 +15,8 @@
 }
 .preview {
   display: inline-block;
+  width: 800px;
+  margin-top: 25px;
+  margin-left: 50px;
+  vertical-align: top;
 }

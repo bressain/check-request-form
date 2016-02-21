@@ -1,0 +1,51 @@
+.titleContainer {
+  margin-bottom: 41px;
+}
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+.subtitle {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+.header {
+  display: flex;
+}
+.headerLeft {
+  flex-basis: 550px;
+  margin-right: 20px;
+}
+.headerRight {
+  flex-grow: 2;
+}
+.orgContainer {
+  display: flex;
+}
+.org {
+  flex-grow: 1;
+  margin-left: 50px;
+}
+.otherOrgContainer {
+  display: flex;
+}
+.otherOrg {
+  flex-grow: 2;
+  margin-left: 5px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.info {
+  font-style: italic;
+  margin: 20px 0 0;
+}
+.signatures {
+  display: flex;
+}
+.signature {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 0 30px;
+}
